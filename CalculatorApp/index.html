@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculater App</title>
+</head>
+<body class="bg-green-200">
+    
+    <div class=" bg-slate-400 w-64 h-1/4 mx-auto my-40 rounded shadow-[0_4px_4px_4px_rgba(0,0,0,0.3)]">
+        <form >
+            
+            <div class="mx-2">
+                <input class=" bg-zinc-100 w-60 h-20 my-4 text-black  text-right inline-block pointer-events-none rounded" placeholder="" type="text" name="screen" id="screen"> 
+            </div>
+        </form>
+            <div class=" mx-6">
+            <button class="btn bg-orange-400 rounded-sm my-1 mx-1 w-10 h-10 text-white text-center cursor-pointer hover:bg-lime-200" id="mul" data-value="*">*</button>
+            <button class="btn bg-orange-400 rounded-sm my-1 mx-1 w-10 h-10 text-white text-center cursor-pointer hover:bg-lime-200" id="div" data-value="/">/</button>
+            <button class="btn bg-orange-400 rounded-sm my-1 mx-1 w-10 h-10 text-white text-center cursor-pointer hover:bg-lime-200" id="sub" data-value="-">-</button>
+            <button class="btn bg-orange-400 rounded-sm my-1 mx-1 w-10 h-10 text-white text-center cursor-pointer hover:bg-lime-200" id="add" data-value="+">+</button>
+
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="nine" data-value="9">9</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="eight" data-value="8">8</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="seven" data-value="7">7</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="six" data-value="6">6</button>
+            
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="five" data-value="5">5</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="four" data-value="4">4</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="three" data-value="3">3</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="two" data-value="2">2</button>
+
+            
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="one" data-value="1">1</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="zero" data-value="0">0</button>
+            <button class="btn bg-neutral-100 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="dot" data-value=".">.</button>
+            <button class=" bg-green-700 rounded-sm my-1 mx-1 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200 hover:bg-lime-200"   id="equal">=</button>
+
+            <button class=" bg-red-700 rounded-sm my-1 mx-1 mb-4 w-10 h-10 text-black text-center cursor-pointer hover:bg-lime-200" id="clear">C</button>
+
+            </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
