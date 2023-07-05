@@ -1,0 +1,7 @@
+.font{
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}

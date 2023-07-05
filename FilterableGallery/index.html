@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<title>Filterable Gallery</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1 class="mt-16 mb-8 text-4xl font-extrabold text-pink-500">Filterable Gallery</h1>
+        <button class="bg-purple-700 hover:bg-purple-300 mx-4 px-3 py-1 text-white rounded-full" onclick="removeClassName()">All</button>
+        <button class="bg-purple-700 hover:bg-purple-300 mx-4 px-3 py-1 text-white rounded-full" onclick="logoImgDisplay()">Logo Design</button>
+        <button class="bg-purple-700 hover:bg-purple-300 mx-4 px-3 py-1 text-white rounded-full" onclick="WebImgDisplay()">Web Design</button>
+        <button class="bg-purple-700 hover:bg-purple-300 mx-4 px-3 py-1 text-white rounded-full" onclick="MobileAppDisplay()">Mobile App</button>
+    </div>
+    <div class="container grid lg:grid-cols-4 gap-4 md:grid-cols-3 gap-3 sm:grid-cols-2 gap-2 place-items-center my-5 mx-auto">
+        <img class="LogoDesign w-[330rem] h-80" src="https://www.designhill.com/design-blog/wp-content/uploads/2014/08/Expert-Custom-Logo-Designer.png" alt="Logo Design">
+        <img class="LogoDesign w-[330rem] h-80" src="https://fiverr-res.cloudinary.com/t_mobile_web_2,q_auto,f_auto/gigs/3171448/original/6758c91c574a18649d90241594cd950c89c91b36.png" alt="Logo Design">
+        <img class="LogoDesign w-[330rem] h-80" src="https://img.freepik.com/free-vector/gradient-quill-pen-design-template_23-2149837194.jpg?w=2000" alt="Logo Design">
+        <img class="LogoDesign w-[330rem] h-80" src="https://elements-cover-images-0.imgix.net/6abbcfb6-8707-466d-891c-9c7b1dbb036a?auto=compress%2Cformat&fit=max&w=2740&s=26d1a1d2d381be85a1e6811b254009ad" alt="Logo Design">
+
+
+
+        <img class="WebDesign w-[330rem] h-80" src="https://miro.medium.com/v2/resize:fit:1400/1*aTYOTFS4Vkr-nwHNML3GvQ.jpeg" alt="Web Design">
+        <img class="WebDesign w-[330rem] h-80" src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000" alt="Web Design">
+        <img class="WebDesign w-[330rem] h-80" src="https://www.searchenginejournal.com/wp-content/uploads/2020/01/which-web-design-platform-is-right-for-you-5e4d59fb941b9.png" alt="Web Design">
+        <img class="WebDesign w-[330rem] h-80" src="https://thumbs.dreamstime.com/b/responsive-web-design-page-promotion-different-display-devices-office-studio-desk-cioncept-graphic-elements-wall-174870257.jpg" alt="Web Design">
+
+
+
+        <img class="MobileApp w-[330rem] h-80" src="https://inventionland.com/wp/wp-content/uploads/2018/12/inventionland-flying-apps-1.jpg" alt="Mobile App">
+        <img class="MobileApp w-[330rem] h-80" src="https://miro.medium.com/v2/resize:fit:916/1*z2BaY_MTgmcjgLfNyGQJ4g.png" alt="Mobile App">
+        <img class="MobileApp w-[330rem] h-80" src="https://cdn.dribbble.com/userupload/3246131/file/original-ed69e91f8839c5e6f164d07c7451487a.png?resize=400x0" alt="Mobile App">
+        <img class="MobileApp w-[330rem] h-80" src="https://htmlburger.com/blog/wp-content/uploads/2021/10/Login-Design-Example-21.png" alt="Mobile App">
+
+
+        <img class="MobileApp w-[330rem] h-80" src="https://s3-alpha.figma.com/hub/file/2486712287/41dff480-59c2-4083-9639-a2a4dca2012e-cover.png" alt="Mobile App">
+        <img class="WebDesign w-[330rem] h-80" src="https://t4.ftcdn.net/jpg/03/54/17/85/360_F_354178547_hy7OujN7u4m2SqkZy1T3t41I6oXvnkxL.jpg" alt="Web Design">
+        <img class="LogoDesign w-[330rem] h-80" src="https://cdn1.vectorstock.com/i/1000x1000/37/65/ad-vibrant-creative-leter-logo-design-vector-22723765.jpg" alt="Logo Design">
+        <img class="WebDesign w-[330rem] h-80" src="https://www.shutterstock.com/image-vector/interface-design-vector-image-trendy-260nw-1746201695.jpg" alt="Web Design">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
