@@ -8,7 +8,7 @@ import { Routes,Route } from 'react-router-dom';
 function App() {
   return (
     <Routes>
-   <Route  path='/ExpenseTrackerApp' element={<Wrapper />} /> 
+   <Route  path='/' element={<Wrapper />} /> 
     </Routes>
   )
 }
